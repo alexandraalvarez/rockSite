@@ -20,12 +20,12 @@ header {/*formato general del header*/
 	background-size: cover; /*para que cubra el fondo*/
 }
 header h1 {/*formato detallado del título h1*/
-	padding-bottom: 6%; /*relleno inferior*/
-	font-size: 14%; /*tamaño de fuente*/
+	padding-bottom: 1rem; /*relleno inferior*/
+	font-size: 5rem; /*tamaño de fuente*/
 	font-weight: 100; /*grosor de la fuente*/
 }
 header h3 {
-	font-size: 20%; /*tamaño de fuente*/
+	font-size: 3rem; /*tamaño de fuente*/
 	font-weight: 100; /*grosor de la fuente*/
 }
 
