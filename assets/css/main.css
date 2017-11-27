@@ -1,0 +1,100 @@
+/*#6E6E6E color gris */
+
+/*formato general del body*/
+body {/*formato general del body*/
+	margin: 0 auto; /*margen*/
+	padding: 0; /*relleno*/
+	background-color: #FFFFFF; /*color de fondo*/
+	font-family: 'Roboto', sans-serif;
+	color: #2E2E2E;/*color de fuente*/
+}
+
+/*formato general del header*/
+header {/*formato general del header*/
+	text-align: center; /*alineamiento del texto*/
+	color: #FFFFFF; /*color de fuente*/
+	padding: 12.5%; /*relleno*/
+	opacity: 0.7;
+	background-color: #424242; /*color de fondo por defecto para cuando no se ve la imagen*/
+	background-image: url(../images/header.jpg); /*imagen de fondo*/
+	background-size: cover; /*para que cubra el fondo*/
+}
+header h1 {/*formato detallado del título h1*/
+	padding-bottom: 6%; /*relleno inferior*/
+	font-size: 14%; /*tamaño de fuente*/
+	font-weight: 100; /*grosor de la fuente*/
+}
+header h3 {
+	font-size: 20%; /*tamaño de fuente*/
+	font-weight: 100; /*grosor de la fuente*/
+}
+
+/*formato general section about rock*/
+.about-rock h3,p { /*formato general del título y párrafo*/
+	text-align: left; /*alineación texto*/
+	font-weight: 100; /*ancho de fuente*/
+}
+.about-rock h3 { /*formato detallado del h3*/
+	font-size: 3.5rem; /*tamaño de la fuente*/
+	padding: 4rem 1rem 1rem 4rem; /*relleno*/
+	margin: 4rem 0 0 2rem;
+}
+.about-rock p { /*formato detallado del p*/
+	font-size: 1.1rem; /*tamaño de la fuente*/
+	padding: 0 1rem 1rem 4rem; /*relleno*/
+	margin-left: 2rem;
+}
+.about-rock .rock1 { /*formato detallado de la foto dos*/
+	padding-top: 2rem;
+	width: 75%; /*ancho*/
+	border-radius: 50%; /*radio del borde circular*/	
+}
+
+/*formato general section salute img*/
+.salute-img h3,p { /*formato general del título y párrafo*/
+	text-align: left; /*alineación texto*/
+	font-weight: 100; /*ancho de fuente*/
+}
+.salute-img h3 { /*formato detallado del h3*/
+	font-size: 3.5rem; /*tamaño de la fuente*/
+	padding: 4rem 1rem 1rem 0; /*relleno*/
+	margin-top: 4rem; /*margen superior*/
+}
+.salute-img p { /*formato detallado del p*/
+	font-size: 1.1rem; /*tamaño de la fuente*/	
+}
+.salute-img .rock2 { /*formato detallado de la foto dos*/
+	width: 75%; /*ancho*/
+	border-radius: 50%; /*radio del borde circular*/
+	padding: 2rem 1rem 1rem 4rem; /*relleno*/
+	margin-left: 2rem; /*margen izquierda*/	
+}
+
+/*formato general section be rock*/
+.be-rock h3,p { /*formato general del título y párrafo*/
+	text-align: left; /*alineación texto*/
+	font-weight: 100; /*ancho de fuente*/
+}
+.be-rock h3 { /*formato detallado del h3*/
+	font-size: 3.5rem; /*tamaño de la fuente*/
+	padding: 4rem 1rem 1rem 4rem; /*relleno*/
+	margin: 4rem 0 0 2rem;
+}
+.be-rock p { /*formato detallado del p*/
+	font-size: 1.1rem; /*tamaño de la fuente*/
+	padding: 0 1rem 1rem 4rem; /*relleno*/
+	margin-left: 2rem;
+}
+.be-rock .rock3 { /*formato detallado de la foto dos*/
+	padding-bottom: 2rem;
+	width: 75%; /*ancho*/
+	border-radius: 50%; /*radio del borde circular*/	
+}
+
+/*formato general del footer*/
+footer {
+	background-color: #424242;
+	color: #BDBDBD;
+	text-align: center;
+	padding: 2rem 1rem;
+}
