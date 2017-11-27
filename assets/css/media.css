@@ -2,16 +2,12 @@
 	[class*="col-"] { /*para llamar a cualquiera de las cols*/
 		width: 100% /*para que se reordenen al hacer el achicado de pantalla*/
 	}
-
-
 } 
 
 @media (min-width: 200px) and (max-width: 599px) { /*entre 200px y 534px se va a ver con lo que le diga abajo*/
 	[class*="col-"] { /*para llamar a cualquiera de las cols*/
 		width: 100% /*para que se reordenen al hacer el achicado de pantalla*/
 	}
-	
-	
-
-
 }
+
+/*comentario de prueba*/
